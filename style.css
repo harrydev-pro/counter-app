@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh ;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: silver;
+}
+.wrapper{
+        display: flex;
+        background-color: white;
+        border-radius: 15px;
+        width: 30rem;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 3px 5px 10px rgb(0,0,0,0.5);
+}
+h1{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+h2{
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: blue;
+}
+.btn{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.btn button{
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    text-transform: capitalize;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 5px 10px rgb(0,0,0,0.5);
+}
+#reset{
+    background-color: red;
+
+}
+.initial-wrapper{
+    display: flex;
+    gap: 15px;
+}
+ input{
+    height: 40px;
+    width: 120px;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.initial-wrapper button{
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    box-shadow: 3px 5px 10px rgb(0,0,0,0.5);
+    text-transform: capitalize;
+}
+
+
+/*responsive design*/
+
+
+
+@media screen and (max-width:768px){
+ .wrapper{
+    width: 90%;
+ }   
+}
